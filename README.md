@@ -1,4 +1,4 @@
-# angular2-json-schema-form-ionic
+# ionic-json-schema-form-ionic
 
 Ionic framework library for the [Angular 2 JSON Schema Form](https://github.com/dschnelldavis/angular2-json-schema-form)
 
@@ -9,7 +9,7 @@ Ensure you have already installed and configured [Ionic](https://github.com/ioni
 To install this library, run:
 
 ```bash
-$ npm install angular2-json-schema-form-ionic --save
+$ npm install ionic-json-schema-form --save
 ```
 
 and then from your Angular `AppModule`:
@@ -18,7 +18,7 @@ and then from your Angular `AppModule`:
 
 // Import the library
 ...
-import { IonicFrameworkModule } from 'angular2-json-schema-form-ionic';
+import { IonicFrameworkModule } from 'ionic-json-schema-form';
 
 @NgModule({
   imports: [

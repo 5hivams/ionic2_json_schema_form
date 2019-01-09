@@ -1,0 +1,19 @@
+<ion-item>
+    <ion-label
+        *ngIf="options?.title"
+        [attr.for]="'control' + layoutNode?._id"
+        [ngClass]="options?.labelHtmlClass || ''"
+        [style.display]="options?.notitle ? 'none' : ''"
+        [innerHTML]="options?.title"
+        stacked
+    >
+    </ion-label>
+    <ion-select #item [(ngModel)]="controlValue" (ionChange)="updateValue(item.value)">
+        <ion-option *ngFor="let selectItem of selectList" [selected]="selectItem?.value === controlValue" [value]="selectItem?.value">
+            <span [innerHTML]="selectItem?.name"></span>
+        </ion-option>
+    </ion-select>
+</ion-item>
+<ion-item *ngIf="options?.showErrors && options?.errorMessage">
+    <p [innerHTML]="options?.errorMessage"></p>
+</ion-item>

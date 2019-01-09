@@ -1,0 +1,15 @@
+ion-textarea {
+    border: 1px solid #a41c39;
+    border-radius: 20px;
+    color: #666;
+  }
+ion-textarea.textarea { 
+    margin: 8px 8px !important;
+    width: calc(100% - 6px) !important;
+  }
+  ion-item { 
+    box-shadow: none!important;
+    border-bottom: none!important;
+    padding-left: 6px!important;
+
+}

@@ -1,0 +1,10 @@
+ion-input,
+ion-select {
+  border: 1px solid #a41c39;
+  height: 40px;
+  border-radius: 20px;
+  color: #666;
+  max-width: 100%;
+  width: 100%;
+}
+ion-select { padding: 10px 12px 8px !important; }

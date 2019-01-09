@@ -1,0 +1,41 @@
+<ion-list-header
+    *ngIf="sectionTitle"
+    [ngClass]="options?.labelHtmlClass || ''"
+    [innerHTML]="sectionTitle">
+</ion-list-header>
+<ion-item>
+    
+        <ionic-root-widget
+            [dataIndex]="dataIndex"
+            [layout]="layoutNode.items"
+            [layoutIndex]="layoutIndex"
+            [isOrderable]="options?.orderable" [ngClass]="{'ionic-root-widget':layoutNode.items.length >1}">
+        </ionic-root-widget>
+    
+    <ion-list *ngIf="containerType === 'fieldset'" [ngClass]="options?.htmlClass || ''">
+        <div *ngIf="options?.messageLocation !== 'bottom'">
+            <p
+                *ngIf="options?.description"
+                class="help-block"
+                [ngClass]="options?.labelHelpBlockClass || ''"
+                [innerHTML]="options?.description">
+            </p>
+        </div>
+        <ionic-root-widget
+            [dataIndex]="dataIndex"
+            [layout]="layoutNode.items"
+            [layoutIndex]="layoutIndex"
+            [isOrderable]="options?.orderable"
+        >
+        </ionic-root-widget>
+        <div *ngIf="options?.messageLocation === 'bottom'">
+            <p
+                *ngIf="options?.description"
+                class="help-block"
+                [ngClass]="options?.labelHelpBlockClass || ''"
+                [innerHTML]="options?.description"
+            >
+            </p>
+        </div>
+    </ion-list>
+</ion-item>

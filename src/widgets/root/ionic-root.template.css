@@ -1,0 +1,14 @@
+.multiple-item{
+    display: inline-flex;
+    align-items: baseline;
+}
+
+.ionic-root-widget{
+    display: inline-flex;
+    align-items: baseline;
+}
+
+ionic-root-widget{
+    display: inline-flex;
+    align-items: baseline;
+}

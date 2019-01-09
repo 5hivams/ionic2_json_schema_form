@@ -1,0 +1,18 @@
+ion-item {
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+  padding-left: 6px!important;  
+}
+
+ion-item.item-inner { 
+    border-bottom: none !important;
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+  }
+
+ion-item.select-text { font-size: 1.25rem; }
+
+.ionic-root-widget{
+  display: inline-flex;
+  align-items: center;
+}

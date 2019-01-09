@@ -1,0 +1,52 @@
+# Node
+node_modules/
+node_modules/*
+npm-debug.log
+
+# TypeScript
+src/*.js
+src/*.map
+src/*.d.ts
+
+# JetBrains
+.idea
+.project
+.settings
+.idea/*
+*.iml
+
+# VS Code
+.vscode/*
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Mac
+.DS_Store
+**/.DS_Store
+
+# Ngc generated files
+**/*.ngfactory.ts
+
+# Build files
+dist/*
+
+# Playground tmp files
+.playground
+
+.idea/
+.sourcemaps/
+.sass-cache/
+.tmp/
+.versions/
+coverage/
+tmp/
+temp/
+hooks/
+platforms/
+plugins/
+plugins/android.json
+plugins/ios.json
+www/
+$RECYCLE.BIN/

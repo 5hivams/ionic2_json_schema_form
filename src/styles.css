@@ -1,0 +1,16 @@
+ion-item { 
+    box-shadow: none!important;
+    border-bottom: none!important;
+}
+.item-md.item-block .item-inner {
+    box-shadow: none!important;
+    border-bottom: none!important;
+}
+.item-inner { 
+    box-shadow: none!important;
+    border-bottom: none!important;
+}
+div { 
+    box-shadow: none!important;
+    border-bottom: none!important;
+}

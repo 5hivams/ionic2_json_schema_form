@@ -1,10 +1,10 @@
 # ionic-json-schema-form
 
-Ionic framework library for the [Angular 2 JSON Schema Form](https://github.com/dschnelldavis/angular2-json-schema-form)
+Ionic framework library for the [Angular 2 JSON Schema Form](https://github.com/dschnelldavis/angular2-json-schema-form) this is the upgraded version with CSS support of [angular2-json-schema-form-ionic](https://github.com/jessehon/angular2-json-schema-form-ionic) 
 
 ## Installation
 
-Ensure you have already installed and configured [Ionic](https://github.com/ionic-team/ionic) and [Angular 2 JSON Schema Form](https://github.com/dschnelldavis/angular2-json-schema-form).
+Ensure you have already installed and configured [Ionic2+](https://ionicframework.com/getting-started#cli) and [Angular 2 JSON Schema Form](https://github.com/dschnelldavis/angular2-json-schema-form).
 
 To install this library, run:
 

@@ -1,4 +1,4 @@
-# ionic-json-schema-form-ionic
+# ionic-json-schema-form
 
 Ionic framework library for the [Angular 2 JSON Schema Form](https://github.com/dschnelldavis/angular2-json-schema-form)
 
